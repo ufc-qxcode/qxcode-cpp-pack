@@ -3,10 +3,10 @@
   "displayName": "QxCode - Extensões para C++",
   "description": "Pacote de extensões recomendadas para programação em C++. Fornecido pela UFC Campus Quixadá.",
   "publisher": "qxcode",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ufc-qxcode/qxcode-general-pack"
+    "url": "https://github.com/ufc-qxcode/qxcode-cpp-pack"
   },
   "engines": {
     "vscode": "^1.75.0"
