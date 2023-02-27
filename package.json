@@ -1,15 +1,24 @@
 {
   "name": "qxcode-cpp-pack",
   "displayName": "QxCode - Extensões para C++",
-  "description": "Pacote de extensões recomendadas para programação em C++. Fornecida pela UFC Campus Quixadá.",
+  "description": "Pacote de extensões recomendadas para programação em C++. Fornecido pela UFC Campus Quixadá.",
+  "publisher": "qxcode",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ufc-qxcode/qxcode-general-pack"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },
   "categories": [
     "Extension Packs"
   ],
-  "extensionPack": [ 
-    "publisher.extensionName"
+  "extensionPack": [
+    "qxcode.qxcode-general-pack",
+    "ms-vscode.cpptools",
+    "xaver.clang-format",
+    "mesonbuild.mesonbuild",
+    "vadimcn.vscode-lldb"
   ]
 }
