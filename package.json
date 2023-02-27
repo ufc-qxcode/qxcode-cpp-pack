@@ -1,0 +1,15 @@
+{
+  "name": "qxcode-cpp-pack",
+  "displayName": "QxCode - Extensões para C++",
+  "description": "Pacote de extensões recomendadas para programação em C++. Fornecida pela UFC Campus Quixadá.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "extensionPack": [ 
+    "publisher.extensionName"
+  ]
+}
